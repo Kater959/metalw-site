@@ -1,4 +1,9 @@
 import Link from 'next/link';
+import { AnimatedCounter } from '@/components/AnimatedCounter';
+import { RealHeroVideo } from '@/components/RealHeroVideo';
+import { MediaShowcase } from '@/components/MediaShowcase';
+import { RealCases } from '@/components/RealCases';
+import { VideoBand } from '@/components/VideoBand';
 import { getDictionary } from '@/content/site';
 import { Hero } from '@/components/Hero';
 
@@ -7,7 +12,9 @@ export default function LocaleHome({ params }: { params: { locale: string } }) {
 
   return (
     <>
+      <RealHeroVideo />
       <Hero locale={params.locale} />
+      <div className="premium-divider" />
 
       <section>
         <div className="container">
@@ -21,13 +28,15 @@ export default function LocaleHome({ params }: { params: { locale: string } }) {
             {dict.stats.map((item) => (
               <div className="card" key={item.label}>
                 <div className="kicker">{item.label}</div>
-                <div className="big-number">{item.value}</div>
+                <div className="big-number"><AnimatedCounter value={item.value} /></div>
                 <p>{item.text}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
+
+      <MediaShowcase />
 
       <section>
         <div className="container">
@@ -81,6 +90,9 @@ export default function LocaleHome({ params }: { params: { locale: string } }) {
           </div>
         </div>
       </section>
+
+      <VideoBand />
+      <RealCases />
 
       <section>
         <div className="container">

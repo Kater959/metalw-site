@@ -64,3 +64,31 @@ content/site.ts
 - shimmer на кнопках
 - scroll reveal для секций
 - поддержка prefers-reduced-motion
+
+
+## v4 German premium
+
+Добавлены все 7 премиальных пунктов:
+
+1. Parallax background от курсора.
+2. Псевдо-3D промышленный объект на hero.
+3. Металлические блики на основной кнопке.
+4. Стальная текстура/шум и инженерная сетка.
+5. Loading screen в стиле industrial brand.
+6. Анимация цифр достижений.
+7. Усиленная CTA-кнопка и premium glow interactions.
+
+Загрузка в GitHub: распаковать архив, открыть папку, выделить всё внутри и загрузить поверх текущих файлов → Commit changes.
+
+
+## v5 real media
+
+Эта версия подключает реальные медиа через пути:
+
+- `/media/VIDEO/METALW_VIDEO_CNC_CLOSEUP_01.mp4`
+- `/media/VIDEO/METALW_VIDEO_HERO_FACTORY_01.mp4`
+- `/media/VIDEO/METALW_VIDEO_WELDING_01.mp4`
+- `/media/PHOTO/...`
+- `/media/MODEL_3D/...`
+
+Важно: папки `PHOTO` и `MODEL_3D` должны лежать внутри `public/media/`, а не в корне проекта.

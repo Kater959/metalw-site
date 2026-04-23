@@ -62,10 +62,10 @@ export const dictionaries: Record<Locale, Dictionary> = {
     statsTitle: 'Решения, рассчитанные на производственный результат',
     statsLead: 'Мы упаковали сайт как инженерный бренд для крупных предприятий: строгий стиль, конкретика, сильные направления и понятная проектная логика.',
     stats: [
-      { label: 'Проекты', value: 'Сложные B2B', text: 'Под нестандартные производственные задачи.' },
-      { label: 'Подход', value: 'Полный цикл', text: 'От технической задачи до внедрения решения.' },
-      { label: 'Фокус', value: 'Крупные предприятия', text: 'Работаем на языке инженеров и производственников.' },
-      { label: 'Результат', value: 'Точность и скорость', text: 'Снижение цикла, повторяемость, управляемость.' }
+      { label: 'Проекты', value: '20+', text: 'Под нестандартные производственные задачи.' },
+      { label: 'Подход', value: '5 этапов', text: 'От технической задачи до внедрения решения.' },
+      { label: 'Фокус', value: 'B2B', text: 'Работаем на языке инженеров и производственников.' },
+      { label: 'Результат', value: '24/7', text: 'Снижение цикла, повторяемость, управляемость.' }
     ],
     servicesTitle: 'Ключевые направления',
     servicesLead: 'Структура сайта выстроена так, чтобы сразу показать компетенцию в дорогих и сложных промышленных проектах.',
@@ -186,10 +186,10 @@ export const dictionaries: Record<Locale, Dictionary> = {
     statsTitle: 'Built to communicate industrial competence',
     statsLead: 'This version is intentionally structured as a premium engineering brand for large-scale B2B manufacturing clients.',
     stats: [
-      { label: 'Projects', value: 'Complex B2B', text: 'Focused on non-standard production challenges.' },
-      { label: 'Model', value: 'Full cycle', text: 'From task analysis to manufacturing and launch.' },
-      { label: 'Market', value: 'Industrial buyers', text: 'Structured for engineers, production leaders and procurement.' },
-      { label: 'Outcome', value: 'Precision and speed', text: 'Cycle-time reduction, repeatability and reliability.' }
+      { label: 'Projects', value: '20+', text: 'Focused on non-standard production challenges.' },
+      { label: 'Model', value: '5 stages', text: 'From task analysis to manufacturing and launch.' },
+      { label: 'Market', value: 'B2B', text: 'Structured for engineers, production leaders and procurement.' },
+      { label: 'Outcome', value: '24/7', text: 'Cycle-time reduction, repeatability and reliability.' }
     ],
     servicesTitle: 'Core capabilities',
     servicesLead: 'The site architecture is designed to support premium industrial positioning and clear service presentation.',
@@ -310,10 +310,10 @@ export const dictionaries: Record<Locale, Dictionary> = {
     statsTitle: '为工业信任感而设计',
     statsLead: '这个版本以高端工业品牌思路构建，适合大型B2B制造客户的沟通方式。',
     stats: [
-      { label: '项目类型', value: '复杂B2B', text: '聚焦非标生产问题。' },
-      { label: '执行模式', value: '全流程', text: '从任务分析到制造与导入。' },
-      { label: '目标客户', value: '工业采购方', text: '面向工程、生产与采购负责人。' },
-      { label: '结果导向', value: '精度与效率', text: '缩短节拍、提升重复性与稳定性。' }
+      { label: '项目类型', value: '20+', text: '聚焦非标生产问题。' },
+      { label: '执行模式', value: '5 阶段', text: '从任务分析到制造与导入。' },
+      { label: '目标客户', value: 'B2B', text: '面向工程、生产与采购负责人。' },
+      { label: '结果导向', value: '24/7', text: '缩短节拍、提升重复性与稳定性。' }
     ],
     servicesTitle: '核心方向',
     servicesLead: '网站架构围绕高端工业定位而设计，能够清晰展示重点业务。',

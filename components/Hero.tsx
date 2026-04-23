@@ -21,12 +21,16 @@ export function Hero({ locale }: { locale: string }) {
           </div>
         </div>
         <div className="hero-panel">
-          <div className="machine-grid" />
-          <div className="machine-lines" />
-          <div className="machine-points">
-            <span />
-            <span />
-            <span />
+          <div className="hero-visual-shell">
+            <div className="machine-grid" />
+            <div className="machine-lines" />
+            <div className="machine-model" />
+            <div className="metal-beam" />
+            <div className="machine-points">
+              <span />
+              <span />
+              <span />
+            </div>
           </div>
         </div>
       </div>
