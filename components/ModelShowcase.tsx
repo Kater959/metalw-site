@@ -45,7 +45,6 @@ export function ModelShowcase() {
         <div className="model-showcase">
           <div className="model-viewer-shell">
             {modelViewer}
-            <div className="model-viewer-hint">Крутите модель мышкой</div>
           </div>
 
           <div className="model-showcase-info">
