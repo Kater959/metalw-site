@@ -35,8 +35,8 @@ export default function LocaleHome({ params }: { params: { locale: string } }) {
         </div>
       </section>
 
-      <MediaShowcase />
-      <ModelShowcase />
+      <MediaShowcase locale={params.locale} />
+      <ModelShowcase locale={params.locale} />
 
       <section>
         <div className="container">
@@ -91,8 +91,8 @@ export default function LocaleHome({ params }: { params: { locale: string } }) {
         </div>
       </section>
 
-      <VideoBand />
-      <RealCases />
+      <VideoBand locale={params.locale} />
+      <RealCases locale={params.locale} />
 
       <section>
         <div className="container">

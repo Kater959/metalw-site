@@ -3,7 +3,37 @@
 import { useEffect, createElement } from 'react';
 import { media } from '@/content/media';
 
-export function ModelShowcase() {
+const copy = {
+  ru: {
+    eyebrow: 'Interactive 3D',
+    title: 'Инженерная модель до изготовления',
+    lead: 'Клиент видит не просто фото готового изделия, а полный инженерный подход: 3D модель, конструкция, производство и внедрение.',
+    tag: 'GLB / CAD preview',
+    cardTitle: 'Двухпозиционная зажимная оснастка',
+    text: 'Интерактивная модель для демонстрации конструкции, компоновки и инженерной логики решения. Можно вращать мышкой, приближать и смотреть под разными углами.',
+    bullets: ['Проектирование под конкретную деталь', 'Проверка компоновки до изготовления', 'Наглядная демонстрация для технических служб заказчика'],
+  },
+  en: {
+    eyebrow: 'Interactive 3D',
+    title: 'Engineering model before manufacturing',
+    lead: 'The client sees not just a finished product photo, but the full engineering approach: 3D model, design, manufacturing and implementation.',
+    tag: 'GLB / CAD preview',
+    cardTitle: 'Dual-position clamping fixture',
+    text: 'An interactive model for showing the structure, layout and engineering logic of the solution. It can be rotated, zoomed and reviewed from different angles.',
+    bullets: ['Designed for a specific part', 'Layout validation before manufacturing', 'Clear demonstration for customer engineering teams'],
+  },
+  zh: {
+    eyebrow: '交互式3D',
+    title: '制造前的工程模型',
+    lead: '客户看到的不只是成品照片，而是完整工程方法：3D模型、结构、制造和导入。',
+    tag: 'GLB / CAD预览',
+    cardTitle: '双工位夹紧工装',
+    text: '交互式模型用于展示结构、布局和工程逻辑。可旋转、缩放并从不同角度查看。',
+    bullets: ['针对具体零件设计', '制造前验证布局', '便于向客户工程团队展示'],
+  },
+};
+
+export function ModelShowcase({ locale = 'ru' }: { locale?: string }) {
   useEffect(() => {
     const existing = document.querySelector('script[data-model-viewer]');
     if (existing) return;
@@ -14,6 +44,8 @@ export function ModelShowcase() {
     script.setAttribute('data-model-viewer', 'true');
     document.head.appendChild(script);
   }, []);
+
+  const data = copy[(locale as keyof typeof copy)] ?? copy.ru;
 
   const modelViewer = createElement('model-viewer', {
     src: media.modelDoubleFixture,
@@ -33,13 +65,10 @@ export function ModelShowcase() {
       <div className="container">
         <div className="section-head">
           <div>
-            <span className="eyebrow">Interactive 3D</span>
-            <h2>Инженерная модель до изготовления</h2>
+            <span className="eyebrow">{data.eyebrow}</span>
+            <h2>{data.title}</h2>
           </div>
-          <p>
-            Клиент видит не просто фото готового изделия, а полный инженерный подход:
-            3D модель, конструкция, производство и внедрение.
-          </p>
+          <p>{data.lead}</p>
         </div>
 
         <div className="model-showcase">
@@ -48,16 +77,11 @@ export function ModelShowcase() {
           </div>
 
           <div className="model-showcase-info">
-            <span className="tag">GLB / CAD preview</span>
-            <h3>Двухпозиционная зажимная оснастка</h3>
-            <p>
-              Интерактивная модель для демонстрации конструкции, компоновки и инженерной логики решения.
-              Можно вращать мышкой, приближать и смотреть под разными углами.
-            </p>
+            <span className="tag">{data.tag}</span>
+            <h3>{data.cardTitle}</h3>
+            <p>{data.text}</p>
             <ul className="list">
-              <li>Проектирование под конкретную деталь</li>
-              <li>Проверка компоновки до изготовления</li>
-              <li>Наглядная демонстрация для технических служб заказчика</li>
+              {data.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
             </ul>
           </div>
         </div>

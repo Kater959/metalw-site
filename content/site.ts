@@ -59,13 +59,13 @@ export const dictionaries: Record<Locale, Dictionary> = {
     heroLead: 'Проектируем, производим и внедряем агрегатные станки, зажимную оснастку, стапели, кондукторы и решения для модернизации производственных участков.',
     ctaPrimary: 'Получить расчёт проекта',
     ctaSecondary: 'Отправить чертёж / ТЗ',
-    statsTitle: 'Решения, рассчитанные на производственный результат',
-    statsLead: 'Мы упаковали сайт как инженерный бренд для крупных предприятий: строгий стиль, конкретика, сильные направления и понятная проектная логика.',
+    statsTitle: 'Инженерные решения под задачи производства',
+    statsLead: 'Проектируем и производим оснастку, спецоборудование и модернизационные решения под реальные ограничения производства.',
     stats: [
-      { label: 'Проекты', value: '20+', text: 'Под нестандартные производственные задачи.' },
-      { label: 'Подход', value: '5 этапов', text: 'От технической задачи до внедрения решения.' },
-      { label: 'Фокус', value: 'B2B', text: 'Работаем на языке инженеров и производственников.' },
-      { label: 'Результат', value: '24/7', text: 'Снижение цикла, повторяемость, управляемость.' }
+      { label: 'Проекты', value: '20+', text: 'Под нестандартные производственные задачи предприятий.' },
+      { label: 'Подход', value: '5 этапов', text: 'От технической задачи до изготовления и внедрения.' },
+      { label: 'Фокус', value: 'B2B', text: 'Работаем с инженерными службами, производством и закупками.' },
+      { label: 'Результат', value: '24/7', text: 'Сокращение цикла, стабильная геометрия и повторяемость.' }
     ],
     servicesTitle: 'Ключевые направления',
     servicesLead: 'Структура сайта выстроена так, чтобы сразу показать компетенцию в дорогих и сложных промышленных проектах.',
@@ -183,13 +183,13 @@ export const dictionaries: Record<Locale, Dictionary> = {
     heroLead: 'We design, manufacture and integrate aggregate machines, clamping fixtures, jigs, welding fixtures and modernization solutions for industrial production.',
     ctaPrimary: 'Request project estimate',
     ctaSecondary: 'Send drawing / specification',
-    statsTitle: 'Built to communicate industrial competence',
-    statsLead: 'This version is intentionally structured as a premium engineering brand for large-scale B2B manufacturing clients.',
+    statsTitle: 'Engineering solutions for real production tasks',
+    statsLead: 'We design and manufacture tooling, special-purpose equipment and modernization solutions for complex industrial production needs.',
     stats: [
-      { label: 'Projects', value: '20+', text: 'Focused on non-standard production challenges.' },
-      { label: 'Model', value: '5 stages', text: 'From task analysis to manufacturing and launch.' },
-      { label: 'Market', value: 'B2B', text: 'Structured for engineers, production leaders and procurement.' },
-      { label: 'Outcome', value: '24/7', text: 'Cycle-time reduction, repeatability and reliability.' }
+      { label: 'Projects', value: '20+', text: 'For non-standard manufacturing challenges.' },
+      { label: 'Approach', value: '5 stages', text: 'From technical task to manufacturing and implementation.' },
+      { label: 'Focus', value: 'B2B', text: 'Built for engineering teams, production leaders and procurement.' },
+      { label: 'Result', value: '24/7', text: 'Cycle-time reduction, stable geometry and repeatability.' }
     ],
     servicesTitle: 'Core capabilities',
     servicesLead: 'The site architecture is designed to support premium industrial positioning and clear service presentation.',
@@ -219,12 +219,12 @@ export const dictionaries: Record<Locale, Dictionary> = {
         bullets: ['Special-purpose machines', 'Serial operations', 'Repeatable output']
       }
     ],
-    featuresTitle: 'Why this structure works',
-    featuresLead: 'Industrial clients buy confidence, project control and competence. The site should signal exactly that.',
+    featuresTitle: 'Why manufacturers choose Metalw',
+    featuresLead: 'Complex production projects require engineering discipline, controlled execution and responsibility for the result.',
     features: [
-      { title: 'Premium visual language', text: 'Dark industrial-tech presentation with clean, status-driven UI.' },
-      { title: 'Clear information architecture', text: 'Separate sections for tooling, modernization, machine systems, cases and contacts.' },
-      { title: 'Ready for scale', text: 'Three-language setup, SEO-friendly routes and room for future service expansion.' }
+      { title: 'Engineering competence', text: 'Solutions are designed around the exact part, operation and production constraints.' },
+      { title: 'Project discipline', text: 'From process analysis and CAD to manufacturing, testing and launch support.' },
+      { title: 'Production capability', text: 'Manufacturing, assembly, quality control and preparation for implementation.' }
     ],
     casesTitle: 'Case presentation examples',
     casesLead: 'These are placeholder examples showing how your real project stories can be presented later.',
@@ -234,7 +234,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { title: 'Serial operation', result: 'Stable cycle on a dedicated node', text: 'Aggregate concept designed around throughput and process stability.' }
     ],
     ctaBandTitle: 'Have a task that standard equipment cannot solve?',
-    ctaBandText: 'This codebase is ready to become a full industrial corporate website with your real photos, projects, documents and lead forms.',
+    ctaBandText: 'Send a drawing, specification or production task — we will evaluate the requirements and propose an engineering solution.',
     industriesTitle: 'Industries',
     industries: ['Mechanical engineering', 'Metalworking', 'Automotive components', 'Instrumentation', 'Heavy industry', 'Serial manufacturing'],
     contactsTitle: 'Contacts and project start',
@@ -307,13 +307,13 @@ export const dictionaries: Record<Locale, Dictionary> = {
     heroLead: '我们设计、制造并集成组合机床、夹紧工装、胎架、焊接夹具以及生产改造解决方案。',
     ctaPrimary: '获取项目报价',
     ctaSecondary: '发送图纸 / 技术要求',
-    statsTitle: '为工业信任感而设计',
-    statsLead: '这个版本以高端工业品牌思路构建，适合大型B2B制造客户的沟通方式。',
+    statsTitle: '面向实际生产任务的工程解决方案',
+    statsLead: '我们为复杂工业生产需求设计并制造工装、专用设备和生产改造解决方案。',
     stats: [
-      { label: '项目类型', value: '20+', text: '聚焦非标生产问题。' },
-      { label: '执行模式', value: '5 阶段', text: '从任务分析到制造与导入。' },
-      { label: '目标客户', value: 'B2B', text: '面向工程、生产与采购负责人。' },
-      { label: '结果导向', value: '24/7', text: '缩短节拍、提升重复性与稳定性。' }
+      { label: '项目', value: '20+', text: '面向非标制造任务。' },
+      { label: '方法', value: '5 阶段', text: '从技术任务到制造和导入。' },
+      { label: '重点', value: 'B2B', text: '面向工程、生产和采购团队。' },
+      { label: '结果', value: '24/7', text: '缩短节拍，保证几何稳定和重复性。' }
     ],
     servicesTitle: '核心方向',
     servicesLead: '网站架构围绕高端工业定位而设计，能够清晰展示重点业务。',
@@ -343,12 +343,12 @@ export const dictionaries: Record<Locale, Dictionary> = {
         bullets: ['专用设备', '批量工序', '稳定重复输出']
       }
     ],
-    featuresTitle: '为什么这种结构有效',
-    featuresLead: '工业客户购买的是能力、控制感和可靠性。网站必须首先传达这些信息。',
+    featuresTitle: '为什么制造企业选择 Metalw',
+    featuresLead: '复杂生产项目需要工程纪律、可控执行和对结果负责。',
     features: [
-      { title: '高端视觉语言', text: '深色工业科技风格，简洁且具有品牌感。' },
-      { title: '清晰信息架构', text: '按工装、改造、专机、案例和联系分区展示。' },
-      { title: '便于扩展', text: '已支持三语言、SEO友好路由和未来扩展。' }
+      { title: '工程能力', text: '根据具体零件、工序和生产限制设计解决方案。' },
+      { title: '项目纪律', text: '从工艺分析和CAD到制造、测试和导入支持。' },
+      { title: '生产能力', text: '制造、装配、质量控制和导入准备。' }
     ],
     casesTitle: '案例展示示例',
     casesLead: '以下为占位示例，后续可替换为真实项目、数据和行业案例。',
@@ -358,7 +358,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { title: '批量工序', result: '建立稳定节拍', text: '围绕产能与工艺稳定性设计专用组合方案。' }
     ],
     ctaBandTitle: '是否有标准设备无法解决的任务？',
-    ctaBandText: '这个代码项目已经可以作为正式工业官网的基础，只需补充真实照片、案例、文档和线索表单。',
+    ctaBandText: '发送图纸、技术要求或生产任务，我们将评估需求并提出工程方案。',
     industriesTitle: '适用行业',
     industries: ['机械制造', '金属加工', '汽车零部件', '仪器制造', '重工业', '批量生产'],
     contactsTitle: '联系与项目启动',
