@@ -1,4 +1,5 @@
 import { media } from '@/content/media';
+import { OpenableImage } from '@/components/OpenableImage';
 
 const cases = [
   {
@@ -39,7 +40,7 @@ export function RealCases() {
         <div className="real-cases-grid">
           {cases.map((item) => (
             <article className="real-case-card" key={item.title}>
-              <img src={item.src} alt={item.title} loading="lazy" />
+              <OpenableImage src={item.src} alt={item.title} />
               <div>
                 <span className="tag">{item.tag}</span>
                 <h3>{item.title}</h3>

@@ -4,6 +4,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MotionLayer } from '@/components/MotionLayer';
 import { LoadingScreen } from '@/components/LoadingScreen';
+import { Lightbox } from '@/components/Lightbox';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const dict = getDictionary(params.locale);
@@ -22,6 +23,7 @@ export default function LocaleLayout({
 }) {
   return (
     <>
+      <Lightbox />
       <LoadingScreen />
       <MotionLayer />
       <Header locale={params.locale} />

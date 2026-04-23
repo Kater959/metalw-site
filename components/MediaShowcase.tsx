@@ -1,4 +1,5 @@
 import { media } from '@/content/media';
+import { OpenableImage } from '@/components/OpenableImage';
 
 const items = [
   {
@@ -41,7 +42,7 @@ export function MediaShowcase() {
         <div className="real-media-grid">
           {items.map((item, index) => (
             <article className={index === 0 ? 'real-media-card large' : 'real-media-card'} key={item.title}>
-              <img src={item.src} alt={item.title} loading="lazy" />
+              <OpenableImage src={item.src} alt={item.title} />
               <div className="real-media-caption">
                 <span>{String(index + 1).padStart(2, '0')}</span>
                 <h3>{item.title}</h3>
