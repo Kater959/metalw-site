@@ -55,8 +55,8 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { href: '/ru/contacts', label: 'Контакты' }
     ],
     heroEyebrow: 'Tech-industrial engineering',
-    heroTitle: 'Технологическая оснастка и нестандартное оборудование для промышленных предприятий России',
-    heroLead: 'Проектируем и реализуем инженерные решения, которые ускоряют производство: гидравлическая и механическая зажимная оснастка, стапели, кондукторы, модернизация участков и специальные станки.',
+    heroTitle: 'Технологическая оснастка и спецоборудование для промышленных предприятий',
+    heroLead: 'Проектируем, производим и внедряем агрегатные станки, зажимную оснастку, стапели, кондукторы и решения для модернизации производственных участков.',
     ctaPrimary: 'Получить расчёт проекта',
     ctaSecondary: 'Отправить чертёж / ТЗ',
     statsTitle: 'Решения, рассчитанные на производственный результат',
@@ -95,12 +95,12 @@ export const dictionaries: Record<Locale, Dictionary> = {
         bullets: ['Спецстанки', 'Серийные операции', 'Повторяемый результат']
       }
     ],
-    featuresTitle: 'Почему такой сайт работает',
-    featuresLead: 'На промышленном рынке клиент покупает не красивую картинку, а чувство компетенции, масштаба и контроля.',
+    featuresTitle: 'Почему предприятия выбирают Metalw',
+    featuresLead: 'Для сложных производственных задач важны управляемость проекта, инженерная точность и ответственность за результат.',
     features: [
-      { title: 'Статусный визуал', text: 'Тёмная премиальная подача, похожая на современный industrial-tech бренд.' },
-      { title: 'Понятная структура', text: 'Разделы под реальные направления: оснастка, модернизация, спецстанки, кейсы.' },
-      { title: 'Готовность к развитию', text: 'Проект уже заложен под три языка, SEO и масштабирование разделов.' }
+      { title: 'Инженерная компетенция', text: 'Проектируем решения под конкретную операцию, изделие и ограничения производства.' },
+      { title: 'Проектная дисциплина', text: 'Ведём проект от анализа задачи и КД до изготовления, испытаний и внедрения.' },
+      { title: 'Производственная база', text: 'Собственное производство, сборка, контроль качества и подготовка к запуску.' }
     ],
     casesTitle: 'Кейсы и ожидаемые результаты',
     casesLead: 'Ниже — примеры подачи кейсов. Дальше можно подставить ваши реальные проекты, цифры и отрасли.',
@@ -110,7 +110,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { title: 'Серийное производство', result: 'Стабильная операция на выделенном узле', text: 'Агрегатное решение под типовую операцию с упором на производительность участка.' }
     ],
     ctaBandTitle: 'Есть задача, которую не решает стандартное оборудование?',
-    ctaBandText: 'Сайт уже готов как основа под сильный промышленный бренд. Можно сразу наполнять реальными кейсами, фото, документами и запускать.',
+    ctaBandText: 'Обсудим вашу задачу, оценим ограничения и предложим инженерное решение под конкретный производственный процесс.',
     industriesTitle: 'Отрасли',
     industries: ['Машиностроение', 'Металлообработка', 'Автокомпоненты', 'Приборостроение', 'Тяжёлая промышленность', 'Серийные производства'],
     contactsTitle: 'Контакты и начало проекта',
@@ -179,8 +179,8 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { href: '/en/contacts', label: 'Contacts' }
     ],
     heroEyebrow: 'Tech-industrial engineering',
-    heroTitle: 'Industrial tooling and special-purpose equipment for large manufacturing companies',
-    heroLead: 'We design and deliver engineering systems that improve production performance: hydraulic and mechanical clamping fixtures, jigs, welding fixtures, production line modernization and aggregate machine solutions.',
+    heroTitle: 'Industrial tooling and special-purpose machinery for manufacturing enterprises',
+    heroLead: 'We design, manufacture and integrate aggregate machines, clamping fixtures, jigs, welding fixtures and modernization solutions for industrial production.',
     ctaPrimary: 'Request project estimate',
     ctaSecondary: 'Send drawing / specification',
     statsTitle: 'Built to communicate industrial competence',
@@ -303,8 +303,8 @@ export const dictionaries: Record<Locale, Dictionary> = {
       { href: '/zh/contacts', label: '联系' }
     ],
     heroEyebrow: '工业科技工程',
-    heroTitle: '面向大型制造企业的工业工装与非标设备',
-    heroLead: '我们设计并交付提升生产效率的工程系统：液压与机械夹紧工装、胎架与检具、产线改造以及专用机床解决方案。',
+    heroTitle: '面向制造企业的工业工装与专用设备',
+    heroLead: '我们设计、制造并集成组合机床、夹紧工装、胎架、焊接夹具以及生产改造解决方案。',
     ctaPrimary: '获取项目报价',
     ctaSecondary: '发送图纸 / 技术要求',
     statsTitle: '为工业信任感而设计',

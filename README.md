@@ -92,3 +92,15 @@ content/site.ts
 - `/media/MODEL_3D/...`
 
 Важно: папки `PHOTO` и `MODEL_3D` должны лежать внутри `public/media/`, а не в корне проекта.
+
+
+## v6 real hero
+
+Новый первый экран:
+
+- реальное CNC/video производство в hero
+- B2B оффер без самоописания сайта
+- затемнение и premium industrial overlay
+- animated count-up метрики
+- проектные proof-пункты
+- старый абстрактный hero убран

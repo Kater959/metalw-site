@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { AnimatedCounter } from '@/components/AnimatedCounter';
-import { RealHeroVideo } from '@/components/RealHeroVideo';
 import { MediaShowcase } from '@/components/MediaShowcase';
 import { RealCases } from '@/components/RealCases';
 import { VideoBand } from '@/components/VideoBand';
@@ -12,7 +11,6 @@ export default function LocaleHome({ params }: { params: { locale: string } }) {
 
   return (
     <>
-      <RealHeroVideo />
       <Hero locale={params.locale} />
       <div className="premium-divider" />
 
