@@ -104,3 +104,17 @@ content/site.ts
 - animated count-up метрики
 - проектные proof-пункты
 - старый абстрактный hero убран
+
+
+## v7 interactive 3D model
+
+Добавлен реальный интерактивный GLB viewer:
+
+- путь модели: `/media/MODEL_3D/METALW_MODEL_DOUBLE_FIXTURE_01.glb`
+- auto-rotate
+- mouse controls
+- zoom/orbit controls
+- отдельная секция "Инженерная модель до изготовления"
+
+Если модель не видна, проверь что файл лежит именно тут:
+`public/media/MODEL_3D/METALW_MODEL_DOUBLE_FIXTURE_01.glb`

@@ -3,6 +3,7 @@ import { AnimatedCounter } from '@/components/AnimatedCounter';
 import { MediaShowcase } from '@/components/MediaShowcase';
 import { RealCases } from '@/components/RealCases';
 import { VideoBand } from '@/components/VideoBand';
+import { ModelShowcase } from '@/components/ModelShowcase';
 import { getDictionary } from '@/content/site';
 import { Hero } from '@/components/Hero';
 
@@ -35,6 +36,7 @@ export default function LocaleHome({ params }: { params: { locale: string } }) {
       </section>
 
       <MediaShowcase />
+      <ModelShowcase />
 
       <section>
         <div className="container">
