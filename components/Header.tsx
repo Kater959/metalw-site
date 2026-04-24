@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getDictionary } from '@/content/site';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { ThemeToggle } from './ThemeToggle';
 
 export function Header({ locale }: { locale: string }) {
   const dict = getDictionary(locale);
@@ -19,7 +20,7 @@ export function Header({ locale }: { locale: string }) {
             </Link>
           ))}
         </nav>
-        <LanguageSwitcher locale={locale} />
+        <div className="nav-actions"><ThemeToggle /><LanguageSwitcher locale={locale} /></div>
       </div>
     </header>
   );

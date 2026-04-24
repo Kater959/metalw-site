@@ -151,3 +151,13 @@ content/site.ts
 - video band теперь RU/EN/ZH
 - 3D section теперь RU/EN/ZH
 - убраны/заменены остатки текста "про сайт"
+
+
+## v11 dual theme
+
+Добавлена светлая premium тема:
+
+- переключатель Light/Dark в шапке
+- сохранение выбора в localStorage
+- light theme в стиле silver industrial / Siemens
+- тёмная тема остаётся основной
