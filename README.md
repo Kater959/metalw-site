@@ -196,3 +196,12 @@ content/site.ts
 - навигация раскрывается/скрывается
 - hero поднимается выше
 - шапка стала компактнее на телефоне
+
+
+## v15 visible luxury correction
+
+- убран zoom/cursor hint с фото
+- luxury стал заметнее: metallic frame, gold/silver accents, executive hero card
+- усилены рамки, тени, дорогие разделители
+- фото меньше перекрываются текстом
+- кнопки стали дороже визуально
