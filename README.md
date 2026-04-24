@@ -229,3 +229,11 @@ content/site.ts
 - closed mobile menu = display:none
 - hard CSS добавлен во все globals.css
 - нижняя CTA удалена физически
+
+
+## v19 Platinum Industrial
+
+- убран рыжий/золотой оттенок
+- заменён на platinum / titanium / blue steel
+- hero line, borders, glow, CTA теперь холодные industrial premium
+- стиль ближе к German engineering, Siemens / DMG / Porsche industrial

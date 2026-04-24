@@ -1701,7 +1701,7 @@ html[data-theme="light"] .lightbox-close {
 
 /* v12 heavy luxury + mobile polish */
 :root {
-  --lux-gold: #d8c08a;
+  --lux-gold: #b8c7d9;
   --lux-silver: #e7edf7;
   --lux-blue: #7db0ff;
 }
@@ -1709,7 +1709,7 @@ html[data-theme="light"] .lightbox-close {
 /* heavier premium atmosphere */
 body {
   background:
-    radial-gradient(circle at 78% 8%, rgba(216,192,138,0.08), transparent 22%),
+    radial-gradient(circle at 78% 8%, rgba(150,180,220,0.08), transparent 22%),
     radial-gradient(circle at top right, rgba(116,167,255,0.16), transparent 28%),
     radial-gradient(circle at 20% 10%, rgba(255,255,255,0.055), transparent 22%),
     linear-gradient(180deg, #05070c 0%, #06080d 100%);
@@ -1718,7 +1718,7 @@ body {
 body::before {
   background:
     linear-gradient(115deg, rgba(255,255,255,0.023) 0 1px, transparent 1px 8px),
-    radial-gradient(circle at 18% 20%, rgba(216,192,138,0.035), transparent 18%),
+    radial-gradient(circle at 18% 20%, rgba(150,180,220,0.035), transparent 18%),
     radial-gradient(circle at 82% 18%, rgba(116,167,255,0.1), transparent 20%),
     radial-gradient(circle at 50% 100%, rgba(255,255,255,0.04), transparent 28%);
   opacity: 0.88;
@@ -1748,7 +1748,7 @@ html[data-theme="light"] .brand-mark {
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(115deg, transparent 0 44%, rgba(216,192,138,0.08) 50%, transparent 56%),
+    linear-gradient(115deg, transparent 0 44%, rgba(150,180,220,0.08) 50%, transparent 56%),
     radial-gradient(circle at 50% 120%, rgba(116,167,255,0.12), transparent 36%);
   pointer-events: none;
 }
@@ -1765,7 +1765,7 @@ html[data-theme="light"] .brand-mark {
   margin-top: 24px;
   border-radius: 999px;
   background: linear-gradient(90deg, var(--lux-gold), rgba(116,167,255,0.78), transparent);
-  box-shadow: 0 0 24px rgba(216,192,138,0.22);
+  box-shadow: 0 0 24px rgba(150,180,220,0.22);
 }
 
 .hero-v6-stat,
@@ -1779,7 +1779,7 @@ html[data-theme="light"] .brand-mark {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(110deg, transparent, rgba(216,192,138,0.08), transparent);
+  background: linear-gradient(110deg, transparent, rgba(150,180,220,0.08), transparent);
   transform: translateX(-120%);
   animation: luxSweep 7s ease-in-out infinite;
 }
@@ -2175,7 +2175,7 @@ html[data-theme="light"] .brand-mark {
 /* Light theme luxury additions */
 html[data-theme="light"] body {
   background:
-    radial-gradient(circle at 78% 8%, rgba(216,192,138,0.11), transparent 22%),
+    radial-gradient(circle at 78% 8%, rgba(150,180,220,0.11), transparent 22%),
     radial-gradient(circle at top right, rgba(43,111,232,0.13), transparent 28%),
     radial-gradient(circle at 20% 10%, rgba(255,255,255,0.92), transparent 22%),
     linear-gradient(180deg, #f9fbff 0%, #e8edf4 100%);
@@ -2183,13 +2183,13 @@ html[data-theme="light"] body {
 
 html[data-theme="light"] .hero-v6::before {
   background:
-    linear-gradient(115deg, transparent 0 44%, rgba(216,192,138,0.13) 50%, transparent 56%),
+    linear-gradient(115deg, transparent 0 44%, rgba(150,180,220,0.13) 50%, transparent 56%),
     radial-gradient(circle at 50% 120%, rgba(43,111,232,0.12), transparent 36%);
 }
 
 html[data-theme="light"] .hero-v6 h1::after,
 html[data-theme="light"] .section-head h2::after {
-  background: linear-gradient(90deg, #b28c3b, rgba(43,111,232,0.58), transparent);
+  background: linear-gradient(90deg, #7fa8d6, rgba(43,111,232,0.58), transparent);
 }
 
 /* Mobile performance safety */
@@ -2208,7 +2208,7 @@ html[data-theme="light"] .section-head h2::after {
 
 /* v13 money luxury conversion */
 :root{
-  --money-gold:#d5b26a;
+  --money-gold:#b8c7d9;
   --money-green:#1fd48f;
 }
 
@@ -2221,7 +2221,7 @@ html[data-theme="light"] .section-head h2::after {
   position:absolute;
   inset:-20%;
   background:
-    radial-gradient(circle at 18% 30%, rgba(213,178,106,0.10), transparent 20%),
+    radial-gradient(circle at 18% 30%, rgba(150,180,220,0.10), transparent 20%),
     radial-gradient(circle at 82% 18%, rgba(125,176,255,0.12), transparent 24%),
     radial-gradient(circle at 50% 110%, rgba(31,212,143,0.06), transparent 28%);
   animation:heroFloat 18s ease-in-out infinite alternate;
@@ -2242,7 +2242,7 @@ html[data-theme="light"] .section-head h2::after {
 }
 
 .hero-v6-proof-line{
-  border:1px solid rgba(213,178,106,.14);
+  border:1px solid rgba(150,180,220,.14);
 }
 
 .hero-v6-stat strong{
@@ -2259,7 +2259,7 @@ html[data-theme="light"] .section-head h2::after {
 .card:hover,.service-card:hover,.case-card:hover,.real-media-card:hover,.real-case-card:hover,.contact-card:hover{
   transform:translateY(-6px);
   box-shadow:0 28px 70px rgba(0,0,0,.22);
-  border-color:rgba(213,178,106,.22);
+  border-color:rgba(150,180,220,.22);
 }
 
 /* CTA shine */
@@ -2284,7 +2284,7 @@ html[data-theme="light"] .section-head h2::after {
 /* trust strip */
 body::after{
   background:
-    linear-gradient(90deg, transparent, rgba(213,178,106,.08), transparent);
+    linear-gradient(90deg, transparent, rgba(150,180,220,.08), transparent);
 }
 
 /* section reveals (CSS only) */
@@ -2548,13 +2548,13 @@ html[data-theme="light"] .hero-v6 h1{
 
 /* настоящий heavy luxury layer */
 .hero-v6 {
-  border-bottom: 1px solid rgba(216,192,138,0.18);
+  border-bottom: 1px solid rgba(150,180,220,0.18);
 }
 
 .hero-v6::before {
   background:
-    linear-gradient(115deg, transparent 0 34%, rgba(216,192,138,0.16) 48%, transparent 58%),
-    radial-gradient(circle at 72% 20%, rgba(216,192,138,0.12), transparent 18%),
+    linear-gradient(115deg, transparent 0 34%, rgba(150,180,220,0.16) 48%, transparent 58%),
+    radial-gradient(circle at 72% 20%, rgba(150,180,220,0.12), transparent 18%),
     radial-gradient(circle at 50% 120%, rgba(116,167,255,0.16), transparent 34%);
 }
 
@@ -2564,7 +2564,7 @@ html[data-theme="light"] .hero-v6 h1{
   border-radius: 34px;
   background:
     linear-gradient(135deg, rgba(255,255,255,0.075), rgba(255,255,255,0.018)),
-    radial-gradient(circle at 0% 0%, rgba(216,192,138,0.12), transparent 34%);
+    radial-gradient(circle at 0% 0%, rgba(150,180,220,0.12), transparent 34%);
   border: 1px solid rgba(255,255,255,0.1);
   box-shadow:
     0 34px 100px rgba(0,0,0,0.34),
@@ -2577,7 +2577,7 @@ html[data-theme="light"] .hero-v6 h1{
   position: absolute;
   inset: 8px;
   border-radius: 28px;
-  border: 1px solid rgba(216,192,138,0.12);
+  border: 1px solid rgba(150,180,220,0.12);
   pointer-events: none;
 }
 
@@ -2586,7 +2586,7 @@ html[data-theme="light"] .hero-v6 h1{
   position: absolute;
   right: 24px;
   top: 18px;
-  color: rgba(216,192,138,0.72);
+  color: rgba(150,180,220,0.72);
   font-size: 0.68rem;
   letter-spacing: 0.18em;
   font-weight: 900;
@@ -2601,9 +2601,9 @@ html[data-theme="light"] .hero-v6 h1{
   height: 3px;
   width: min(320px, 48vw);
   background:
-    linear-gradient(90deg, #d8c08a, #ffffff, rgba(116,167,255,0.85), transparent);
+    linear-gradient(90deg, #b8c7d9, #ffffff, rgba(116,167,255,0.85), transparent);
   box-shadow:
-    0 0 22px rgba(216,192,138,0.32),
+    0 0 22px rgba(150,180,220,0.32),
     0 0 42px rgba(116,167,255,0.18);
 }
 
@@ -2615,13 +2615,13 @@ html[data-theme="light"] .hero-v6 h1{
 .hero-v6-stat {
   background:
     linear-gradient(180deg, rgba(255,255,255,0.09), rgba(255,255,255,0.026));
-  border-color: rgba(216,192,138,0.16);
+  border-color: rgba(150,180,220,0.16);
 }
 
 .hero-v6-proof-line {
   background:
-    linear-gradient(135deg, rgba(216,192,138,0.105), rgba(255,255,255,0.026));
-  border-color: rgba(216,192,138,0.2);
+    linear-gradient(135deg, rgba(150,180,220,0.105), rgba(255,255,255,0.026));
+  border-color: rgba(150,180,220,0.2);
 }
 
 /* luxury section frame */
@@ -2636,7 +2636,7 @@ html[data-theme="light"] .hero-v6 h1{
   top: -18px;
   width: 56px;
   height: 1px;
-  background: linear-gradient(90deg, #d8c08a, transparent);
+  background: linear-gradient(90deg, #b8c7d9, transparent);
 }
 
 .real-media-section,
@@ -2656,7 +2656,7 @@ html[data-theme="light"] .hero-v6 h1{
   height: 1px;
   margin: 0 auto 34px;
   background:
-    linear-gradient(90deg, transparent, rgba(216,192,138,0.42), rgba(116,167,255,0.24), transparent);
+    linear-gradient(90deg, transparent, rgba(150,180,220,0.42), rgba(116,167,255,0.24), transparent);
 }
 
 /* visible luxury cards */
@@ -2669,7 +2669,7 @@ html[data-theme="light"] .hero-v6 h1{
 .service-card,
 .case-card,
 .contact-card {
-  border-color: rgba(216,192,138,0.14);
+  border-color: rgba(150,180,220,0.14);
   box-shadow:
     0 26px 90px rgba(0,0,0,0.34),
     inset 0 1px 0 rgba(255,255,255,0.08);
@@ -2680,7 +2680,7 @@ html[data-theme="light"] .hero-v6 h1{
 .video-band::before,
 .model-viewer-shell::before {
   background:
-    linear-gradient(135deg, rgba(216,192,138,0.18), transparent 20%, transparent 72%, rgba(116,167,255,0.12));
+    linear-gradient(135deg, rgba(150,180,220,0.18), transparent 20%, transparent 72%, rgba(116,167,255,0.12));
   opacity: 0.58;
 }
 
@@ -2689,10 +2689,10 @@ html[data-theme="light"] .hero-v6 h1{
 .model-viewer-shell:hover,
 .model-showcase-info:hover,
 .video-band:hover {
-  border-color: rgba(216,192,138,0.32);
+  border-color: rgba(150,180,220,0.32);
   box-shadow:
     0 34px 110px rgba(0,0,0,0.44),
-    0 0 0 1px rgba(216,192,138,0.08),
+    0 0 0 1px rgba(150,180,220,0.08),
     inset 0 1px 0 rgba(255,255,255,0.12);
 }
 
@@ -2700,7 +2700,7 @@ html[data-theme="light"] .hero-v6 h1{
 .real-media-caption {
   background:
     linear-gradient(90deg, rgba(4,6,10,0.78), rgba(4,6,10,0.34), transparent);
-  border-top: 1px solid rgba(216,192,138,0.14);
+  border-top: 1px solid rgba(150,180,220,0.14);
 }
 
 .real-media-card::after {
@@ -2711,37 +2711,37 @@ html[data-theme="light"] .hero-v6 h1{
 /* buttons more expensive */
 .button.primary {
   background:
-    linear-gradient(110deg, #e6d39c 0%, #ffffff 22%, #96bdff 44%, #d8c08a 65%, #ffffff 100%);
+    linear-gradient(110deg, #dfe7f2 0%, #ffffff 22%, #96bdff 44%, #b8c7d9 65%, #ffffff 100%);
   background-size: 260% 100%;
   color: #06101c;
-  border: 1px solid rgba(216,192,138,0.4);
+  border: 1px solid rgba(150,180,220,0.4);
   box-shadow:
-    0 22px 60px rgba(216,192,138,0.14),
+    0 22px 60px rgba(150,180,220,0.14),
     0 18px 46px rgba(116,167,255,0.14),
     inset 0 1px 0 rgba(255,255,255,0.78);
 }
 
 .button.secondary {
-  border-color: rgba(216,192,138,0.18);
+  border-color: rgba(150,180,220,0.18);
 }
 
 /* language/theme looks more executive */
 .theme-toggle,
 .lang-switcher a {
-  border-color: rgba(216,192,138,0.12);
+  border-color: rgba(150,180,220,0.12);
 }
 
 .theme-toggle:hover,
 .lang-switcher a:hover,
 .lang-switcher a.active {
-  border-color: rgba(216,192,138,0.28);
+  border-color: rgba(150,180,220,0.28);
 }
 
 /* light mode luxury */
 html[data-theme="light"] .hero-v6-content {
   background:
     linear-gradient(135deg, rgba(255,255,255,0.88), rgba(255,255,255,0.58)),
-    radial-gradient(circle at 0% 0%, rgba(216,192,138,0.16), transparent 34%);
+    radial-gradient(circle at 0% 0%, rgba(150,180,220,0.16), transparent 34%);
   border-color: rgba(10,25,45,0.10);
   box-shadow:
     0 34px 100px rgba(60,78,108,0.18),
@@ -2749,7 +2749,7 @@ html[data-theme="light"] .hero-v6-content {
 }
 
 html[data-theme="light"] .hero-v6-content::after {
-  color: rgba(130,98,32,0.72);
+  color: rgba(80,105,135,0.72);
 }
 
 html[data-theme="light"] .hero-v6-stat strong {
@@ -2762,7 +2762,7 @@ html[data-theme="light"] .hero-v6-stat strong {
 html[data-theme="light"] .real-media-caption {
   background:
     linear-gradient(90deg, rgba(255,255,255,0.84), rgba(255,255,255,0.42), transparent);
-  border-top-color: rgba(130,98,32,0.16);
+  border-top-color: rgba(80,105,135,0.16);
 }
 
 html[data-theme="light"] .real-media-card::after {
@@ -3356,93 +3356,78 @@ html body .mobile-money-cta {
     padding-top: 18px !important;
   }
 }
-@media (max-width: 980px) {
-  .mobile-nav-panel {
-    display: none !important;
-    height: 0 !important;
-    max-height: 0 !important;
-    overflow: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-  }
 
-  .mobile-nav-panel.open {
-    display: block !important;
-    height: auto !important;
-    max-height: 420px !important;
-    opacity: 1 !important;
-    pointer-events: auto !important;
-    padding-top: 10px !important;
-  }
 
-  .mobile-money-cta {
-    display: none !important;
-  }
-
-  body {
-    padding-bottom: 0 !important;
-  }
-}
-@media (max-width: 980px) {
-  .navbar {
-    min-height: 62px !important;
-    padding: 9px 0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: stretch !important;
-    gap: 0 !important;
-  }
-
-  .mobile-topline {
-    display: flex !important;
-    width: 100% !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-  }
-
-  .mobile-menu-button {
-    display: grid !important;
-    place-items: center !important;
-    width: 42px !important;
-    height: 42px !important;
-  }
-
-  .mobile-menu-button span {
-    width: 20px !important;
-    height: 2px !important;
-    background: currentColor !important;
-    display: block !important;
-    margin: 2px 0 !important;
-  }
-
-  .mobile-nav-panel {
-    display: none !important;
-  }
-
-  .mobile-nav-panel.open {
-    display: block !important;
-    padding-top: 10px !important;
-  }
-
-  .mobile-money-cta {
-    display: none !important;
-  }
-
-  body {
-    padding-bottom: 0 !important;
-  }
+/* v19 Platinum Industrial — no warm rust/gold */
+:root {
+  --lux-gold: #b8c7d9 !important;
+  --money-gold: #b8c7d9 !important;
+  --lux-silver: #eef4fb !important;
+  --lux-blue: #7fa8d6 !important;
 }
 
-@media (min-width: 981px) {
-  .mobile-topline {
-    display: contents !important;
-  }
+.hero-v6-content::after {
+  color: rgba(184, 199, 217, 0.72) !important;
+}
 
-  .mobile-menu-button {
-    display: none !important;
-  }
+.hero-v6 h1::after,
+.section-head h2::after {
+  background: linear-gradient(90deg, #dfe7f2, rgba(127,168,214,0.85), transparent) !important;
+  box-shadow:
+    0 0 22px rgba(127,168,214,0.20),
+    0 0 42px rgba(184,199,217,0.14) !important;
+}
 
-  .mobile-nav-panel {
-    display: contents !important;
-  }
+.hero-v6::before {
+  background:
+    linear-gradient(115deg, transparent 0 34%, rgba(150,180,220,0.13) 48%, transparent 58%),
+    radial-gradient(circle at 72% 20%, rgba(127,168,214,0.12), transparent 18%),
+    radial-gradient(circle at 50% 120%, rgba(116,167,255,0.16), transparent 34%) !important;
+}
+
+.hero-v6-stat,
+.hero-v6-proof-line,
+.real-media-card,
+.real-case-card,
+.model-viewer-shell,
+.model-showcase-info,
+.video-band,
+.card,
+.service-card,
+.case-card,
+.contact-card {
+  border-color: rgba(150,180,220,0.16) !important;
+}
+
+.real-media-section::before,
+.model-showcase-section::before,
+.video-band-section::before,
+.real-cases-section::before {
+  background: linear-gradient(90deg, transparent, rgba(184,199,217,0.36), rgba(127,168,214,0.28), transparent) !important;
+}
+
+.button.primary {
+  background:
+    linear-gradient(110deg, #eef4fb 0%, #ffffff 22%, #9ec3ff 44%, #b8c7d9 65%, #ffffff 100%) !important;
+  color: #06101c !important;
+  border-color: rgba(184,199,217,0.42) !important;
+  box-shadow:
+    0 22px 60px rgba(127,168,214,0.14),
+    0 18px 46px rgba(184,199,217,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.78) !important;
+}
+
+.theme-toggle,
+.lang-switcher a,
+.button.secondary {
+  border-color: rgba(150,180,220,0.16) !important;
+}
+
+html[data-theme="light"] .hero-v6-content::after {
+  color: rgba(80,105,135,0.72) !important;
+}
+
+html[data-theme="light"] .hero-v6 h1::after,
+html[data-theme="light"] .section-head h2::after {
+  background: linear-gradient(90deg, #6f849c, rgba(43,111,232,0.58), transparent) !important;
 }

@@ -10,6 +10,14 @@ export function Header({ locale }: { locale: string }) {
   const dict = getDictionary(locale);
   const [open, setOpen] = useState(false);
 
+  const links = [
+    { href: `/${locale}`, label: dict.nav.home },
+    { href: `/${locale}/tooling`, label: dict.nav.tooling },
+    { href: `/${locale}/modernization`, label: dict.nav.modernization },
+    { href: `/${locale}/cases`, label: dict.nav.cases },
+    { href: `/${locale}/contacts`, label: dict.nav.contacts },
+  ];
+
   return (
     <header className="header">
       <div className="container navbar">
@@ -22,8 +30,9 @@ export function Header({ locale }: { locale: string }) {
           <button
             className={open ? 'mobile-menu-button active' : 'mobile-menu-button'}
             type="button"
-            onClick={() => setOpen(!open)}
-            aria-label="Menu"
+            onClick={() => setOpen((value) => !value)}
+            aria-label={open ? 'Close menu' : 'Open menu'}
+            aria-expanded={open}
           >
             <span />
             <span />
@@ -33,9 +42,9 @@ export function Header({ locale }: { locale: string }) {
 
         <div className={open ? 'mobile-nav-panel open' : 'mobile-nav-panel'}>
           <nav className="nav-links">
-            {dict.nav.map((item) => (
-              <Link key={item.href} href={item.href} onClick={() => setOpen(false)}>
-                {item.label}
+            {links.map((link) => (
+              <Link key={link.href} href={link.href} onClick={() => setOpen(false)}>
+                {link.label}
               </Link>
             ))}
           </nav>
