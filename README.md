@@ -221,3 +221,11 @@ content/site.ts
 - физически удалён HTML-блок mobile-money-cta из layout
 - добавлен жёсткий CSS override
 - закрытое мобильное меню теперь display:none
+
+
+## v18 final mobile header
+
+- Header.tsx переписан
+- closed mobile menu = display:none
+- hard CSS добавлен во все globals.css
+- нижняя CTA удалена физически
