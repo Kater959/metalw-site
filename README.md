@@ -176,3 +176,12 @@ content/site.ts
 - адаптация hero под телефон
 - улучшение фото/кейсов/3D/lightbox на мобильных
 - компактные правила для маленьких экранов
+
+
+## v13 money luxury
+- sticky mobile CTA
+- richer hero motion
+- premium hover cards
+- CTA shine
+- smoother reveals
+- conversion focused polish

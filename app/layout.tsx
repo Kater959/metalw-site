@@ -10,7 +10,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
-      <body>{children}</body>
+      <body>{children}
+        <div className="mobile-money-cta">
+          <a href="#contact">Отправить ТЗ</a>
+          <a href="https://wa.me/" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+
+</body>
     </html>
   );
 }
