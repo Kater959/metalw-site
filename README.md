@@ -214,3 +214,10 @@ content/site.ts
 - оставлен компактный логотип + бургер
 - hero теперь виден сразу
 - шапка больше не занимает пол-экрана
+
+
+## v17 hard remove mobile CTA
+
+- физически удалён HTML-блок mobile-money-cta из layout
+- добавлен жёсткий CSS override
+- закрытое мобильное меню теперь display:none
