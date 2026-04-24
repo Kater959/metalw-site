@@ -3356,3 +3356,30 @@ html body .mobile-money-cta {
     padding-top: 18px !important;
   }
 }
+@media (max-width: 980px) {
+  .mobile-nav-panel {
+    display: none !important;
+    height: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .mobile-nav-panel.open {
+    display: block !important;
+    height: auto !important;
+    max-height: 420px !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    padding-top: 10px !important;
+  }
+
+  .mobile-money-cta {
+    display: none !important;
+  }
+
+  body {
+    padding-bottom: 0 !important;
+  }
+}
