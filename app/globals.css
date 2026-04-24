@@ -2805,3 +2805,275 @@ html[data-theme="light"] .button.primary {
     background: linear-gradient(0deg, rgba(4,6,10,0.76), transparent);
   }
 }
+
+
+/* v16 MOBILE SANITY FIX — stop eating the screen */
+
+/* полностью убираем нижнюю липкую панель */
+.mobile-money-cta {
+  display: none !important;
+}
+
+@media (max-width: 980px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    padding-bottom: 0 !important;
+  }
+
+  .header {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+    background: rgba(9, 13, 21, 0.88) !important;
+    backdrop-filter: blur(18px) !important;
+    border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+  }
+
+  html[data-theme="light"] .header {
+    background: rgba(247,249,252,0.9) !important;
+    border-bottom-color: rgba(9,22,40,0.1) !important;
+  }
+
+  .navbar {
+    width: min(var(--container), calc(100% - 28px)) !important;
+    min-height: 68px !important;
+    padding: 10px 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: center !important;
+    gap: 0 !important;
+  }
+
+  .mobile-topline {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+  }
+
+  .brand {
+    min-width: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 3px !important;
+  }
+
+  .brand-mark {
+    font-size: 1.08rem !important;
+    line-height: 1 !important;
+    letter-spacing: 0.18em !important;
+  }
+
+  .brand-sub {
+    font-size: 0.58rem !important;
+    line-height: 1.15 !important;
+    letter-spacing: 0.14em !important;
+    max-width: 270px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .mobile-menu-button {
+    width: 44px !important;
+    height: 44px !important;
+    flex: 0 0 44px !important;
+    display: grid !important;
+    place-items: center !important;
+    gap: 4px !important;
+    padding: 11px !important;
+    border-radius: 14px !important;
+    border: 1px solid var(--line) !important;
+    background: rgba(255,255,255,0.055) !important;
+    color: var(--text) !important;
+    cursor: pointer !important;
+  }
+
+  .mobile-menu-button span {
+    width: 20px !important;
+    height: 2px !important;
+    display: block !important;
+    border-radius: 99px !important;
+    background: currentColor !important;
+    transition: transform 0.22s ease, opacity 0.22s ease !important;
+  }
+
+  .mobile-menu-button.active span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg) !important;
+  }
+
+  .mobile-menu-button.active span:nth-child(2) {
+    opacity: 0 !important;
+  }
+
+  .mobile-menu-button.active span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg) !important;
+  }
+
+  /* главное: меню скрыто, пока не нажали бургер */
+  .mobile-nav-panel {
+    display: block !important;
+    width: 100% !important;
+    max-height: 0 !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+    transform: translateY(-8px) !important;
+    transition: max-height 0.26s cubic-bezier(.2,.8,.2,1), opacity 0.2s ease, transform 0.2s ease !important;
+  }
+
+  .mobile-nav-panel.open {
+    max-height: 430px !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: translateY(0) !important;
+    padding-top: 10px !important;
+  }
+
+  .mobile-nav-panel .nav-links {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 6px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .mobile-nav-panel .nav-links a {
+    width: 100% !important;
+    min-height: 38px !important;
+    display: grid !important;
+    place-items: center !important;
+    padding: 8px 10px !important;
+    border-radius: 14px !important;
+    font-size: 0.94rem !important;
+    line-height: 1 !important;
+    background: rgba(255,255,255,0.035) !important;
+    border: 1px solid var(--line) !important;
+  }
+
+  .mobile-nav-panel .nav-actions {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 7px !important;
+    padding-bottom: 2px !important;
+  }
+
+  .mobile-nav-panel .theme-toggle {
+    width: 100% !important;
+    min-height: 38px !important;
+    justify-content: center !important;
+    border-radius: 14px !important;
+    font-size: 0.92rem !important;
+  }
+
+  .mobile-nav-panel .lang-switcher {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 6px !important;
+  }
+
+  .mobile-nav-panel .lang-switcher a {
+    min-height: 38px !important;
+    display: grid !important;
+    place-items: center !important;
+    padding: 7px 8px !important;
+    border-radius: 14px !important;
+    font-size: 0.92rem !important;
+  }
+
+  /* hero должен быть виден сразу */
+  .hero-v6 {
+    min-height: calc(100svh - 68px) !important;
+    padding: 34px 0 34px !important;
+  }
+
+  .hero-v6-content {
+    padding: 18px !important;
+    border-radius: 24px !important;
+  }
+
+  .hero-v6 h1 {
+    font-size: clamp(2rem, 10vw, 3.15rem) !important;
+    line-height: 0.98 !important;
+    letter-spacing: -0.055em !important;
+  }
+
+  .hero-v6 p.lead {
+    font-size: 0.98rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .actions {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 9px !important;
+    margin-top: 18px !important;
+  }
+
+  .button {
+    min-height: 48px !important;
+    width: 100% !important;
+  }
+
+  .hero-v6-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 8px !important;
+    margin-top: 18px !important;
+  }
+
+  .hero-v6-stat {
+    padding: 12px !important;
+    border-radius: 16px !important;
+  }
+
+  .hero-v6-stat strong {
+    font-size: 1.45rem !important;
+  }
+
+  .hero-v6-stat span {
+    font-size: 0.72rem !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .navbar {
+    width: min(var(--container), calc(100% - 22px)) !important;
+    min-height: 64px !important;
+    padding: 9px 0 !important;
+  }
+
+  .brand-mark {
+    font-size: 1rem !important;
+  }
+
+  .brand-sub {
+    max-width: 230px !important;
+    font-size: 0.54rem !important;
+  }
+
+  .mobile-menu-button {
+    width: 42px !important;
+    height: 42px !important;
+    flex-basis: 42px !important;
+  }
+
+  .hero-v6 {
+    min-height: calc(100svh - 64px) !important;
+    padding-top: 26px !important;
+  }
+
+  .hero-v6 h1 {
+    font-size: clamp(1.9rem, 11vw, 2.75rem) !important;
+  }
+
+  .hero-v6-stats {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
