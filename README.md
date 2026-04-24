@@ -161,3 +161,18 @@ content/site.ts
 - сохранение выбора в localStorage
 - light theme в стиле silver industrial / Siemens
 - тёмная тема остаётся основной
+
+
+## v12 heavy luxury + mobile polish
+
+Добавлено:
+
+- более тяжёлый luxury industrial визуал
+- gold/silver акценты
+- усиленный hero
+- lux sweep эффекты
+- более дорогие карточки и фото
+- улучшенная мобильная шапка
+- адаптация hero под телефон
+- улучшение фото/кейсов/3D/lightbox на мобильных
+- компактные правила для маленьких экранов
