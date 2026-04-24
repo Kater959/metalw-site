@@ -237,3 +237,13 @@ content/site.ts
 - заменён на platinum / titanium / blue steel
 - hero line, borders, glow, CTA теперь холодные industrial premium
 - стиль ближе к German engineering, Siemens / DMG / Porsche industrial
+
+
+## v20 Transparent Glass
+
+- убраны тяжёлые глухие заливки
+- hero/card panels стали прозрачнее
+- фон и видео лучше видны
+- пустые места меньше бросаются в глаза
+- фото меньше закрыты градиентами
+- light/dark обе темы стали glass-industrial
